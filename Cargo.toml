@@ -1,0 +1,17 @@
+[package]
+name = "speedtest-daemon"
+version = "1.0.0"
+authors = ["Siddharth A Vasu <siddharth_vasu@hotmail.co.uk>"]
+edition = "2018"
+readme = "README.md"
+licence = "MIT"
+
+# Small app built in Rust to run the speedtest-cli and insert the data into a small SQL database.
+
+[dependencies]
+serde_json = "1.0.57"
+rusqlite = "0.24.0"
+chrono = "0.4"
+structopt = "0.3.17"
+log = "0.4.11"
+env_logger = "0.7.1"
